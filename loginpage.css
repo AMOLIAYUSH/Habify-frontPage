@@ -1,0 +1,152 @@
+*{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5em;
+}
+
+.input1{
+    border: none;
+    outline: none;
+}
+
+.input2{
+    border: none;
+    outline: none;
+    margin-left: 3em;
+}
+
+.rule1{
+    border: 1px solid grey;
+    width: 13em;
+}
+
+.rule2{
+    width: 650px;
+    border: 1px solid grey;
+}
+
+.label1{
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+.flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.body{
+    background-color: aliceblue;
+}
+
+.button{
+    width: 6em;
+    height: 2.5em;
+    margin-left: 1em;
+    margin-top: -0.5em;
+}
+
+.login-option{
+    justify-content: right;
+    padding-right: 4em;
+    padding-top: 1em;
+}
+
+.container{
+    height: auto;
+    margin-left: 20em;
+    max-width: 790px;
+    background-color: rgb(255, 255, 255);
+  }
+
+.top-image{
+    margin-top: none;
+    background-image: url(/img1.png);
+    width: 750px;
+    height: 400px;
+    margin-bottom: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.name{
+    justify-content: space-around;
+}
+
+.upper-text p{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.rule{
+    margin-top: 2em;
+    position: fixed;
+}
+
+.upper-text{
+    margin-top: 2em;
+    margin-bottom: none;
+    margin-left: 1.2em;
+}
+
+.option-box{
+    width: 8em;
+    height: 2em;
+    border-radius: 0.1em ;
+    border: 0.8px solid grey;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.profile-question{
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+
+.select{
+    width: 8em;
+    height: 2em;
+    margin-left: 1em;
+    border: none;
+    outline: none;
+    margin-bottom: none;
+}
+
+.name2{
+    margin-left:none;
+    justify-content: space-around;
+}
+
+.part-1{
+    padding-left: -1em;
+    width: 90vw;
+    height: 20vh;
+}
+
+.new{
+    width: 5em;
+}
+
+.multiple-checkbox{
+    justify-content:space-around ;
+}
+
+.concent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.final-button{
+    background-color: rgb(209, 26, 26);
+    color: white;
+    width: 34em;
+    height: 3em;
+    margin-top:2em ;
+    margin-bottom: 2em;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.list-item{
+    padding-left: 1em;    
+}

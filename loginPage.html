@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loginpage</title>
+    <link rel="stylesheet" href="loginpage.css" />
+    <script src="https://kit.fontawesome.com/9abb2f4ef1.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="body">
+    <div class="login-option flex">
+      <p>Already have an account ?</p>
+      <button class="button">Sign In</button>
+    </div>
+    <div class="container">
+      <div class="top-image"></div>
+      <div class="name flex">
+        <div class="first-name">
+          <label name="first-name">First Name</label><br />
+          <input
+            class="input1"
+            type="text"
+            id="first-name"
+            name="first-name"
+          /><br />
+          <hr class="rule1" />
+        </div>
+
+        <div class="last-name">
+          <label name="last-name">Last Name</label><br />
+          <input
+            class="input1"
+            type="text"
+            id="last-name"
+            name="last-name"
+          /><br />
+          <hr class="rule1" />
+        </div>
+      </div>
+      <div class="username">
+        <label class="label1" name="username">Username</label><br />
+        <input
+          class="input2"
+          type="text"
+          id="last-name"
+          name="last-name"
+        /><br />
+        <hr class="rule2" />
+      </div>
+
+      <div class="email">
+        <label class="label1" name="email">Email Address</label><br />
+        <input class="input2" type="text" id="email" name="email" /><br />
+        <hr class="rule2" />
+      </div>
+
+      <div class="password">
+        <label class="label1" name="password">Password</label><br />
+        <input
+          class="input2"
+          type="password"
+          id="password"
+          name="password"
+        /><br />
+        <hr class="rule2" />
+      </div>
+      <div class="division">
+        <div class="upper-text"><p>privacy options (OPTIONAL)</p></div>
+        <hr class="rule rule1" /></div>
+      <div class="profile-question">
+        <div class="profile-question"><p>Who can view my profile ?</p></div>
+        <div class="options flex">
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Everyone"
+              name="profile"
+              value="Everyone"
+            />
+            <label for="Everyone">Everyone</label>
+          </div>
+
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="friends"
+              name="friends"
+              value="friends"
+            />
+            <label for="friends">Only Friends</label>
+          </div>
+
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Invite "
+              name="profile"
+              value="Invite "
+            />
+            <label for="Invite">Invite Only</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-question">
+        <div class="profile-question">
+          <p>Automatically share my post and replies on social networks</p>
+        </div>
+        <div class="options flex">
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Everyone"
+              name="profile"
+              value="Everyone"
+            />
+            <label for="Everyone"
+              ><i class="fa-brands fa-square-facebook"></i>&nbsp;FACEBOOK</label
+            >
+          </div>
+
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="friends"
+              name="friends"
+              value="friends"
+            />
+            <label for="friends"><i class="fa-brands fa-twitter"></i>&nbsp;TWITTER</label>
+          </div>
+
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Invite "
+              name="profile"
+              value="Invite "
+            />
+            <label for="Invite"><i class="fa-brands fa-google-plus-g"></i>&nbsp;GOOGLE+</label>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="upper-text"><p>Small Survey (OPTIONAL)</p></div>
+      <div class="survey">
+          <div class="name flex">
+            <div class="age">
+              <label name="age">How old are you ?</label><br />
+              <select class="select" name="age" id="age">
+                <option value="">Select</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+              </select><br />
+              <hr class="rule1" />
+            </div>
+            <div class="identity">
+              <label name="identity">Who are you ?</label><br />
+              <select class="select" name="identity" id="identity">
+              <option value="">Select</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Others">Others</option><br />
+              </select><br />
+              <hr class="rule1" />
+          </div>
+        </div>
+        
+        <div class="name2 flex">
+          <div class="age">
+            <label name="age">will you be friendly here ?</label><br />
+            <select class="select" name="identity" id="identity">
+              <option value="">Select</option>
+              <option value="YES">YES</option>
+              <option value="NO">NO</option><br />
+              </select><br />
+            <hr class="rule1" />
+          </div>
+          <div class="platform">
+            <label name="platform">Who are you ?</label><br />
+            <select class="select" name="platform" id="platform">
+              <option value="">select</option>
+              <option value="facebook">Facebook</option>
+              <option value="twitter">Twitter</option>
+              <option value="instagram">Instagram</option>
+              <option value="linkedin">LinkedIn</option>
+          </select>
+            <hr class="rule1" />
+        </div>
+      </div>
+      </div>
+      <div class="social-profile">
+        <div class="upper-text"><p>Link Social networks (OPTIONAL)</p>
+        <div class="section-1 flex">
+          <div class="facebook-url">
+            <label name="fb-link"><i class="fa-brands fa-square-facebook"></i>&nbsp;Facebook URL</label><br />
+            <input class="input2" type="url" id="email" name="email"/><br />
+            <hr class="rule1"><br>
+          </div>
+
+          <div class="facebook-url">
+            <label name="twitter-url"><i class="fa-brands fa-twitter"></i>&nbsp;Twitter Username</label><br />
+            <input class="input2" type="url" id="twitter-url" name="twitter-url"/><br />
+            <hr class="rule1"><br>
+          </div>
+        </div>
+          <div class="section-2 flex">
+            <div class="google-account">
+              <label name="fb-link"><i class="fa-brands fa-google-plus-g"></i>&nbsp;Google+ account</label><br />
+              <input class="input2" type="url" id="google-account" name="google-account"/><br />
+              <hr class="rule1"><br>
+            </div>
+  
+            <div class="facebook-url">
+              <label name="youtube-channel"><i class="fa-brands fa-youtube"></i>&nbsp; Youtube channel </label><br />
+              <input class="input2" type="url" id="youtube-channel" name="youtube-channel"/><br />
+              <hr class="rule1"><br>
+            </div>
+          </div>
+
+          <div class="multiple-checkbox">
+            <div class=""><p>Interested categories(OPTIONAL)</p></div><br>
+              <div class="part-1 flex">
+                <div class="option-box">
+              <input
+                type="checkbox"
+                id="selectALL"
+                name="Interest"
+                value="selectALL"
+              />
+              <label for="selectALL">Select All</label></div>
+              
+              <div class="option-box">
+                <input
+                  type="checkbox"
+                  id="mentalhealth"
+                  name="Interest"
+                  value="mentalhealth"
+                />
+                <label for="mentalhealth">Mental health</label>    </div>
+
+                <div class="option-box">
+                  <input
+                    type="checkbox"
+                    id="mhtips"
+                    name="Interest"
+                    value="mhtips"
+                  />
+                  <label for="mhtips">MH tips</label></div>
+
+                  <div class="option-box last">
+                    <input
+                      type="checkbox"
+                      id="support"
+                      name="Interest"
+                      value="support"
+                    />
+                    <label for="support">Support</label>
+            </div>
+
+
+            <div class="part-2 flex">
+              <div class="option-box">
+            <input
+              type="checkbox"
+              id="enabler"
+              name="Interest"
+              value="enabler">
+            <label for="enabler">enabler</label></div>
+            
+            <div class="option-box">
+              <input
+                type="checkbox"
+                id="Art"
+                name="Interest"
+                value="Art"
+              />
+              <label for="Art">Art</label>    </div>
+
+              <div class="option-box">
+                <input
+                  type="checkbox"
+                  id="Q&As"
+                  name="Interest"
+                  value="Q&As"
+                />
+                <label for="Q&As">Q&As</label></div>
+
+                <div class="option-box last">
+                  <input
+                    type="checkbox"
+                    id="Exchange"
+                    name="Interest"
+                    value="Exchange"
+                  />
+                  <label for="Exchange">Exchange</label></div>
+
+
+          <div class="part-1 flex">
+            <div class="option-box">
+          <input
+            type="checkbox"
+            id="Social"
+            name="Interest"
+            value="Social">
+          <label for="Social">Social</label></div>
+          
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Random"
+              name="Interest"
+              value="Random"
+            />
+            <label for="Random">Random</label>    </div>
+
+            <div class="option-box">
+              <input
+                type="checkbox"
+                id="Music"
+                name="Interest"
+                value="Music"
+              />
+              <label for="Music">Music</label></div>
+
+              <div class="option-box last">
+                <input
+                  type="checkbox"
+                  id="Science"
+                  name="Interest"
+                  value="Science"
+                />
+                <label for="Science">Science</label>
+        </div>
+
+        <div class="part-1 flex">
+          <div class="option-box">
+        <input
+          type="checkbox"
+          id="Pet"
+          name="Interest"
+          value="Pet">
+        <label for="Pet">Pet</label></div>
+        
+        <div class="option-box">
+          <input
+            type="checkbox"
+            id="Education"
+            name="Interest"
+            value="Education"
+          />
+          <label for="Education">Education</label>    </div>
+
+          <div class="option-box">
+            <input
+              type="checkbox"
+              id="Video"
+              name="Interest"
+              value="Video"
+            />
+            <label for="Video">Video</label></div>
+            </div>
+
+          </div>
+            <div class="concent flex">
+                <input
+                  type="checkbox"
+                  id="concent1"
+                  name="concent"
+                  value="concent1"
+
+                />
+                <label for="concent1">I agree to the Terms and condition</label>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="concent2"
+                    name="concent"
+                    value="concent2"
+                  />
+                  <label for="concent2">Subscribe to newsletter</label></div>
+            </div>
+                  </div>
+                  <div><button onclick="show('popup')" class="final-button">Create a new account</button></div>
+
+                </div>
+                </div>
+  </body>
+</html>
